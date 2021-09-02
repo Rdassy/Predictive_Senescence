@@ -1,6 +1,3 @@
-# Removing sensitive passwords info
-config.py
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -29,6 +26,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# config file
+config.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

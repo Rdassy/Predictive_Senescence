@@ -1,0 +1,77 @@
+-- Create table for raw data import from Telo_Data.csv
+
+-- ADDED "Collection_Num" for PK Unique ID on each row
+
+CREATE TABLE Birds_Data_Raw (
+	 Collection_Num INT NOT NULL,
+	 BirdID INT NOT NULL,
+     Sex INT NOT NULL,
+     AgeY FLOAT NOT NULL,
+     AgeClass VARCHAR NOT NULL,
+     BirthFPID INT NOT NULL,
+     U_PlateID VARCHAR NOT NULL,
+	 RTL FLOAT NOT NULL,
+     Technician INT,
+	 Terr FLOAT NOT NULL,
+     FPID INT NOT NULL,
+	 Mum INT,
+     Dad INT,
+	 MAC FLOAT,
+     PAC FLOAT,
+	 BrF INT,
+     BrM INT,
+     PRIMARY KEY (Collection_Num)
+);
+
+CREATE TABLE Human_Bio_Raw (
+  ID INT NOT NULL,
+  HHID INT NOT NULL,
+  PN INT NOT NULL,
+  LSUBHH INT,
+  KSUBHH INT,
+  LPN_SP INT,
+  LCSR INT,
+  LFAMR INT,
+  LFINR INT,
+  LA500 INT,
+  LA501 INT NOT NULL,
+  LA061 INT NOT NULL,
+  LA062 INT NOT NULL,
+  LA063 INT,
+  LA064 INT,
+  LA002 INT,
+  LA009 INT,
+  LA010 INT,
+  LA103 INT,
+  LA011 INT,
+  LA012 INT,
+  LA019 INT,
+  LA028 INT,
+  LA065 INT,
+  LA066 INT,
+  LA068M INT,
+  LA099 INT,
+  LA100 INT,
+  LA101 INT,
+  LA016 INT,
+  LA113 INT,
+  LA116 INT,
+  LA117 INT,
+  LVDATE INT,
+  LVERSION INT,
+  PRIMARY KEY (ID)
+);
+
+CREATE TABLE Human_Telomere_Raw (
+	 ID INT NOT NULL,
+	 HHID INT NOT NULL,
+     PD INT NOT NULL,
+     PLATE FLOAT NOT NULL,
+     WELL VARCHAR NOT NULL,
+     FINAL_T_S FLOAT NOT NULL,
+	 FINAL_CV FLOAT NOT NULL,
+     NOTES VARCHAR,
+     FOREIGN KEY (ID) REFERENCES Human_Bio_Raw (ID),
+     PRIMARY KEY (ID)
+);
+
