@@ -7,7 +7,11 @@ We are interested in determining the relationship of health and environmental fa
 
 ## Describe the source of the data
 
-The data came from [this source](https://data.world/datagov-uk/e102ccd7-cd2a-4e73-8fe2-ec3f5f415ae5)
+The data came from [this source](https://data.world/datagov-uk/e102ccd7-cd2a-4e73-8fe2-ec3f5f415ae5). The supplemental information file contains the following description and sources:
+
+"Detailed in (Sparks et al., 2021): “The Seychelles warbler is a small passerine endemic to the Seychelles archipelago (Komdeur et al., 1991). The entire population (~320 adult individuals in 115 territories) on Cousin island (29 ha; 04°20′S, 55°40′E) has been monitored intensively since 1985 (Hammers et al., 2019; Komdeur, 1992; Raj Pant et al., 2019; Richardson et al., 2007).”, “Since 1990, blood samples (~25 μl) have been taken and stored at room temperature in absolute ethanol, thus allowing …. telomere length measurement (Barrett et al., 2013).” “We used the telomere data set generated in Spurgin et al. (2018), which included birds caught and blood sampled between 1995 and 2014, when the data were most complete. RTL was estimated using qPCR (quantitative polymerase chain reaction; Barrett et al., 2013; Bebbington et al., 2016; Spurgin et al., 2018). DNA integrity (agarose gel) and 260/280 ratios were checked in all samples before running any qPCR, and any samples with signs of degradation were removed, reextracted and checked again.” "
+
+The data set we used contains the data collected from all the the aforementioned studies and includes the telomere length measurements we are interested in.
 
 
 ## Formulate hypothesis / questions to be answered with the data
