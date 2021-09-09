@@ -1,0 +1,10 @@
+dictionary using c:\telo\data\TELOMERESA_R.da {
+* Note: change location of input file to match your situation.
+ _column(1) str6 HHID %6s "HOUSEHOLD IDENTIFIER"
+ _column(7) str3 PN %3s "PERSON NUMBER"
+ _column(10) long PLATE %8.0f "PLATE"
+ _column(18) str3 WELL %3s "WELL"
+ _column(21) double FINAL_T_S %11.8f "FINAL_T_S"
+ _column(32) double FINAL_CV %10.8f "FINAL_CV"
+ _column(42) str244 NOTES %244s "NOTES"
+}
