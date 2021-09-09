@@ -27,6 +27,10 @@ Alternative Hypothesis - There is a positive correlation between telomere length
 - Does the telomere length decrease over time for each bird? If yes, is the rate similar?
 - Does pedigree influence telomere length?
 
+### Machine Learning Model
+
+[The provisional Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/hierarchicalCluster.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. THe model includes class labels chick, juvenile, and adult. Our database is stored on AWS and connected via psycopg2.
+
 ## Communication Protocols 
 For this project, our main communication protocols are: 
 1) Slack - Used for most information sharing and group communication
