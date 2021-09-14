@@ -1,11 +1,19 @@
-# **<p align="center">Predictive Senescence</p>**
+# **<p align="center">Predictive Senescence</p>** <br/><br/>
 
-## Why did we choose Senescence? 
+
+
+
+
+## **<p align="center">Why did we choose Senescence?</p>**
 
 We are interested in determining the relationship of health and environmental factors on telomere length or vice versa. 
 - In particular, we will be exploring the warbler bird population on the Cousin Island of Seychelles of the coast of Africa.
+<br/><br/>
+## **<p align="center">Describe the source of the data</p>**
 
-## Describe the source of the data
+![Seychelles Warbler - Photo by Chong Boon Leong](https://user-images.githubusercontent.com/76575162/133174385-668707e5-8097-49fb-8998-21ec680a55eb.jpg)
+<em>Photo by Chong Boon Leong</em>
+
 
 The data came from [this source](https://data.world/datagov-uk/e102ccd7-cd2a-4e73-8fe2-ec3f5f415ae5). The supplemental information file contains the following description and sources:
 
@@ -13,8 +21,8 @@ The data came from [this source](https://data.world/datagov-uk/e102ccd7-cd2a-4e7
 
 The data set we used contains the data collected from all the the aforementioned studies and includes the telomere length measurements we are interested in.
 
-
-## Formulate hypothesis / questions to be answered with the data
+<br/><br/>
+## **<p align="center">Formulate hypothesis / questions to be answered with the data</p>**
 ### Hypothesis
 
 Alternative Hypothesis - There is a positive correlation between telomere length and survival
@@ -30,8 +38,8 @@ Alternative Hypothesis - There is a positive correlation between telomere length
 ### Machine Learning Model
 
 [The provisional Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/hierarchicalCluster.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. THe model includes class labels chick, juvenile, and adult. Our database is stored on AWS and connected via psycopg2.
-
-## Communication Protocols 
+<br/><br/>
+## **<p align="center">Communication Protocols </p>**
 For this project, our main communication protocols are: 
 1) Slack - Used for most information sharing and group communication
 
