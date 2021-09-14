@@ -22,7 +22,7 @@ The data came from [this source](https://data.world/datagov-uk/e102ccd7-cd2a-4e7
 The data set we used contains the data collected from all the the aforementioned studies and includes the telomere length measurements we are interested in.
 
 <br/><br/>
-## **<p align="center">Formulate hypothesis / questions to be answered with the data</p>**
+## **<p align="center">Formulate hypotheses / questions to be answered with the data</p>**
 ### Hypothesis
 
 Alternative Hypothesis - There is a positive correlation between telomere length and survival
