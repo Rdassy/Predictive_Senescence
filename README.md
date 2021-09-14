@@ -45,7 +45,7 @@ For this project, our main communication protocols are:
 
 2) Colaborative Google Docs - These will be use to keep track of information exchanged during brainstorming sessions and to create rough drafts of project elements. The files can be viewed using the following links:
   - [Brainstorming](https://docs.google.com/document/d/1MGxBJxMPExYl-iUV2lnuVSc6y_O8LIk3iAu2WnsP-tg/edit).
-  - [Presentation Draft](https://docs.google.com/presentation/d/1CZ6dnmBW9QybRO684qg6MduqbdDlab_SLXPDaNWFkK4/edit#slide=id.ged4dfc22ca_0_5).
+  - [Presentation Draft](https://docs.google.com/presentation/d/1L9v7cA1KCoQ5ybVa5znx3wh-Nd-GpyE_nK2fvRqJfrA/edit?usp=sharing).
 
 4) Class Time - Zoom meetings every Monday and Friday 7-9 PM CST. This time will be used to brainstorm and work on elements needing more interaction between team members.
 
