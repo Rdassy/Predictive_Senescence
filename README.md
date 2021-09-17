@@ -69,6 +69,10 @@ e.g. Within our Grouped Classes by Age dashboard, we can do a cursor selection t
 ![Dashboard Blueprint](/Resources/Images/Interactive_Element2.png)
 <br/><br/>
 
+This is just one example of how Tableau allows users to interact with different elements in our data but there are many more. For more information please go [here.](https://help.tableau.com/current/pro/desktop/en-us/actions_dashboards.htm)
+
+<br/><br/>
+
 ## **<p align="center">Communication Protocols </p>**
 
 For this project, our main communication protocols are:
