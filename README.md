@@ -39,6 +39,26 @@ Alternative Hypothesis - There is a positive correlation between telomere length
 
 [The provisional Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/hierarchicalCluster.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. THe model includes class labels chick, juvenile, and adult. Our database is stored on AWS and connected via psycopg2.
 <br/><br/>
+
+### Dashboard
+
+## The right tool to visualize our predictive senescence data
+
+For this project we decided to build an interactive dashboard. The tool that we picked for this was Tableau given it's robust visualizations and it's native PostgresSQL integration capabilities. 
+
+Tableau is a visual analytics platform that allows people and organizations to be more data-driven. For more about Tableau please go [here.](https://www.tableau.com/why-tableau/what-is-tableau)
+
+## Blueprint & Storyboard 
+
+In order to effectively build our dashboard, we decided to compare a few key indicators as shown below: 
+
+![Dashboard Blueprint](/Resources/Images/Dashboard_Blueprint.png)
+
+## Interactive elements & dashboard
+
+[Predictive Senescence - Tableau Story](https://public.tableau.com/views/Predictive_Senescence/PredictiveSenescence?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+<br/><br/>
 ## **<p align="center">Communication Protocols </p>**
 For this project, our main communication protocols are: 
 1) Slack - Used for most information sharing and group communication
