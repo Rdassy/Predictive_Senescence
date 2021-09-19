@@ -21,6 +21,7 @@ The data set we used contains the data collected from all the the aforementioned
 <br/><br/>
 
 ## **<p align="center">Formulate hypotheses / questions to be answered with the data</p>**
+---
 
 ### Hypothesis
 
@@ -34,30 +35,44 @@ Alternative Hypothesis - There is a positive correlation between telomere length
 - Does the telomere length decrease over time for each bird? If yes, is the rate similar?
 - Does pedigree influence telomere length?
 
-### Machine Learning Model
+## **<p align="center">Presentation</p>**
+---
+Our presentation is drafted in Google Slides and can be found here: [Predective Senescence Presentation](https://docs.google.com/presentation/d/1L9v7cA1KCoQ5ybVa5znx3wh-Nd-GpyE_nK2fvRqJfrA/edit?usp=sharing)
 
-[The provisional Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/hierarchicalCluster.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. THe model includes class labels chick, juvenile, and adult. Our database is stored on AWS and connected via psycopg2.
+## **<p align="center">Database</p>**
+---
+![Database_ERD](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/Formatting/Schema_ERD.png?raw=true)
+
+We have a postgreSQL database hosted in AWS. It is connected to our modeling code via psycopg2 for input of data.
+
+### **<p align="center">Machine Learning Models</p>**
+---
+
+[Our Categorical Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/hierarchicalCluster.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. THe model includes class labels chick, juvenile, and adult. Our database is stored on AWS and connected via psycopg2.
 <br/><br/>
 
-### Dashboard
+[Our Continuous Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) uses the rate at which Telomeres change in an individual to determine the amount of aging observed. It uses a linear regression model with some feaure engineering to optimize our correlation.
+<br/><br/>
 
-## The right tool to visualize our predictive senescence data
+## **<p align="center">Dashboard</p>**
+---
+### The right tool to visualize our predictive senescence data
 
 For this project we decided to build an interactive dashboard. The tool that we picked for this was Tableau given it's robust visualizations and it's native PostgresSQL integration capabilities.
 
 Tableau is a visual analytics platform that allows people and organizations to be more data-driven. For more about Tableau please go [here.](https://www.tableau.com/why-tableau/what-is-tableau)
 
-## Blueprint & Storyboard
+### Blueprint & Storyboard
 
 In order to effectively build our dashboard, we decided to compare a few key indicators as shown below:
 
 ![Dashboard Blueprint](/Resources/Images/Dashboard_Blueprint.png)
 
-## Dashboard
+### Dashboard
 
 [Predictive Senescence - Tableau Story](https://public.tableau.com/views/Predictive_Senescence/PredictiveSenescence?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
-# Interactive elements
+### Interactive elements
 
 Tableau allows us to use interactive elements that provide analysts to further explore data without having to create new charts.
 
@@ -74,6 +89,7 @@ This is just one example of how Tableau allows users to interact with different 
 <br/><br/>
 
 ## **<p align="center">Communication Protocols </p>**
+---
 
 For this project, our main communication protocols are:
 
