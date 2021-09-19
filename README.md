@@ -48,7 +48,10 @@ We have a postgreSQL database hosted in AWS. It is connected to our modeling cod
 ### **<p align="center">Machine Learning Models</p>**
 ---
 
-[Our Categorical Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/hierarchicalCluster.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. THe model includes class labels chick, juvenile, and adult. Our database is stored on AWS and connected via psycopg2.
+[Our Hierarchical Cluster model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/HierarchicalClusteronly.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. THe model includes class labels chick, juvenile, and adult. Our database is stored on AWS and connected via psycopg2.
+<br/><br/>
+
+[Our Categorical Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RandomForest.ipynb) uses telomere length to determine age class. It uses the Random Forest model. The model includes class labels chick, juvenile, and adult, which out perfromed the [Logistic Regression](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/newLogisticRegression.ipynb) model that used Age class with only Young and Adult classification. Our database is stored on AWS and connected via psycopg2.
 <br/><br/>
 
 [Our Continuous Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) uses the rate at which Telomeres change in an individual to determine the amount of aging observed. It uses a linear regression model with some feaure engineering to optimize our correlation.
