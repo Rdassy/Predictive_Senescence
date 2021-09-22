@@ -44,7 +44,7 @@ order by d.birdid;
 -- select * from bird_age_vs_telo
 
 -- Make Territory_vs_Age Table
-select x.territory, AVG(x.rtl)::numeric(10,2) as Average_RTL, AVG(x.age)::numeric(10,2) as "Average_Age"
+select x.territory, AVG(x.rtl)::numeric(10,2) as Average_RTL, AVG(x.age)::numeric(10,2) as Average_Age
 into Territory_vs_Age
 from bird_territories_data as x
 group by x.territory
@@ -53,7 +53,7 @@ order by x.territory;
 select * from Territory_vs_Age
 
 -- Make Dominant_Female_vs_Age Table
-select x.Dominant_Female, AVG(x.rtl)::numeric(10,2) as Average_RTL, AVG(x.age)::numeric(10,2) as "Average_Age"
+select x.Dominant_Female, AVG(x.rtl)::numeric(10,2) as Average_RTL, AVG(x.age)::numeric(10,2) as Average_Age
 into Dominant_Female_vs_Age
 from bird_territories_data as x
 group by x.Dominant_Female
@@ -62,7 +62,7 @@ order by x.Dominant_Female;
 select * from Dominant_Female_vs_Age
 
 -- Make Dominant_Male_vs_Age Table
-select x.Dominant_Male, AVG(x.rtl)::numeric(10,2) as Average_RTL, AVG(x.age)::numeric(10,2) as "Average_Age"
+select x.Dominant_Male, AVG(x.rtl)::numeric(10,2) as Average_RTL, AVG(x.age)::numeric(10,2) as Average_Age
 into Dominant_Male_vs_Age
 from bird_territories_data as x
 group by x.Dominant_Male
@@ -87,3 +87,10 @@ group by x.Dad
 order by x.Dad;
 
 select * from Dad_vs_Age
+
+-- Make Mean_Age_By_Class Table
+select x.AgeClass, AVG(x.rtl)::numeric(10,2) as Average_RTL, AVG(x.age)::numeric(10,2) as Average_Age
+into Mean_Age_By_Class
+from birds_data_raw as x
+group by x.AgeClass
+order by x.AgeClass;
