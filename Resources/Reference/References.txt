@@ -2,8 +2,11 @@ Final Project
 Data set
 https://data.world/datagov-uk/e102ccd7-cd2a-4e73-8fe2-ec3f5f415ae5
 
+
 Papers
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6A307D50A3248[…]cation-a-transfer-from-cousin-island-to-aride-island-div.pdf
+Sparks, A. M., Spurgin, L. G., van der Velde, M., Fairfield, E. A., Komdeur, J., Burke, T., ... & Dugdale, H. L. (2021). Telomere heritability and parental age at conception effects in a wild avian population. Molecular Ecology.https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6A307D50A3248[…]cation-a-transfer-from-cousin-island-to-aride-island-div.pdf
+
+Wilbourn, R. V., Moatt, J. P., Froy, H., Walling, C. A., Nussey, D. H., & Boonekamp, J. J. (2018). The relationship between telomere length and mortality risk in nonmodel vertebrate systems: A meta-analysis. Philosophical Transactions of the Royal Society B: Biological Sciences, 373, 20160447. https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15804
 
 Photos
 https://www.glispa.org/images/Bright_Spot_Images/Seychelles-CousinIslandSpecialReserve.JPG
