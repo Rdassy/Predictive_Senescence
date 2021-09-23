@@ -114,6 +114,7 @@ This is just one example of how Tableau allows users to interact with different 
     <tr>
       <td align="center"><sub><b>Jakob Akhmerov</b></td>
       <td align="center"><sub><b>Artem Bordetskiy</b></td>
+      <td align="center"><sub><b>Trent Little</b></td>
       <td align="center"><sub><b>Jackson Sheppard</b></td>
       <td align="center"><sub><b>Klaus Smit</b></td>
     </tr>
