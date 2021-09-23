@@ -93,5 +93,29 @@ This is just one example of how Tableau allows users to interact with different 
 
 <br/><br/>
 
-## **<p align="center">Communication Protocols </p>**
----
+## **<p align="center">Contributors</p>**
+
+### <p align="center">Our team ([emoji key](https://allcontributors.org/docs/en/emoji-key)):</p>
+
+<table align= "center">
+  <tr>
+    <td align="center"><a href="https://github.com/Jamesrx33"><img src="https://avatars.githubusercontent.com/u/68870179?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Bell</b></sub></a><br /><a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/commits?author=Jamesrx33" title="Code">💻</a> <a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/pulls?q=is%3Apr+reviewed-by%3AJamesrx33" title="Reviewed Pull Requests">👀<a href="#ideas-Jamesrx33" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/kermitbravo"><img src="https://avatars.githubusercontent.com/u/24511616?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kermit Bravo</b></sub></a><br /><a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/commits?author=kermitbravo" title="Code">💻</a><a href="#design-kermitbravo" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/MuzX9p088KKe"><img src="https://avatars.githubusercontent.com/u/76575162?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robin Dassy</b></sub></a><br /><a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/commits?author=MuzX9p088KKe" title="Code">💻</a> <a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/pulls?q=is%3Apr+reviewed-by%3AMuzX9p088KKe" title="Reviewed Pull Requests">👀</a> <a href="#ideas-MuzX9p088KKe" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/Khodge15"><img src="https://avatars.githubusercontent.com/u/82460401?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kari Hodge</b></sub></a><br /><a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/commits?author=Khodge15" title="Code">💻</a>
+  
+  </tr>
+ </table>
+ <br/><br/>
+  
+  ### <p align="center">Special Thanks:</p>
+  
+  <table align= "center">
+    <tr>
+      <td align="center"><sub><b>Jakob Akhmerov</b></td>
+      <td align="center"><sub><b>Artem Bordetskiy</b></td>
+      <td align="center"><sub><b>Jackson Sheppard</b></td>
+      <td align="center"><sub><b>Klaus Smit</b></td>
+    </tr>
+  </table>
+ 
