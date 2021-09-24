@@ -31,11 +31,8 @@ There is a positive correlation between telomere length and survival
 
 ### Questions:
 
-- How do environmental factors change telomere length?
-- Does the presence of dominant birds influence survival rates of the other birds?
-- Is there a correlation between telomere length and the age class of the birds?
 - Does the telomere length decrease over time for each bird? If yes, is the rate similar?
-- Does pedigree influence telomere length?
+- Is there a correlation between telomere length and the age class of the birds?
 
 ## **<p align="center">Presentation</p>**
 ---
@@ -90,6 +87,16 @@ e.g. Within our Grouped Classes by Age dashboard, we can do a cursor selection t
 <br/><br/>
 
 This is just one example of how Tableau allows users to interact with different elements in our data but there are many more. For more information please go [here.](https://help.tableau.com/current/pro/desktop/en-us/actions_dashboards.htm)
+
+<br/><br/>
+
+## **<p align="center">Potential future research</p>**
+
+For the sake of meeting deadlines, this project was fairly limited in scope. There are still many questions which may require further investigation among which are the following:
+
+- How do environmental factors change telomere length?
+- Does the presence of dominant birds influence survival rates of the other birds?
+- Does pedigree influence telomere length?
 
 <br/><br/>
 
