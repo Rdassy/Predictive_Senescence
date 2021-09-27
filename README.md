@@ -53,7 +53,7 @@ We have a postgreSQL database hosted in AWS. It is connected to our modeling cod
 [Our Categorical Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RandomForest.ipynb) uses telomere length to determine age class. It uses the Random Forest model. The model includes class labels chick, juvenile, and adult, which out perfromed the [Logistic Regression](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/newLogisticRegression.ipynb) model that used Age class with only Young and Adult classification. Our database is stored on AWS and connected via psycopg2.
 <br/><br/>
 
-[Our Continuous Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) uses the rate at which Telomeres change in an individual to determine the amount of aging observed. It uses a linear regression model with some feaure engineering to optimize our correlation.
+[Our Continuous Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) initially used the rate at which Telomeres change in an individual to determine the amount of aging observed. It used a linear regression model with some feaure engineering to optimize our correlation. After noticing a megaphone data distribution, we applied the Box Cox algorithm to best demonstrate the linear correlation between telomere lengthe rate of change and bird age.
 <br/><br/>
 
 ## **<p align="center">Dashboard</p>**
