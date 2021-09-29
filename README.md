@@ -34,9 +34,16 @@ There is a positive correlation between telomere length and survival
 
 <br/><br/>
 ## **<p align="center">Presentation</p>**
----
-This project includes a Google Slides which can be found here: [Predective Senescence Presentation](https://docs.google.com/presentation/d/1L9v7cA1KCoQ5ybVa5znx3wh-Nd-GpyE_nK2fvRqJfrA/edit?usp=sharing)
 
+This project includes a Google Slides which can be found here: [Predective Senescence Presentation](https://docs.google.com/presentation/d/1L9v7cA1KCoQ5ybVa5znx3wh-Nd-GpyE_nK2fvRqJfrA/edit?usp=sharing).
+<br/><br/>
+
+## **<p align="center">Environments</p>**
+
+You can follow [this tutorial](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) to duplicate this project's environment with anaconda along with the [environment.yml file](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/environment.yml).
+Alternatively, [this tutorial](https://note.nkmk.me/en/python-pip-install-requirements/) can be used to pip install packages along with the [requirements.txt file](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/requirements.txt).
+
+<br/><br/>
 ## **<p align="center">Database</p>**
 
 ### **<p align="center">Our Database is written in postgreSQL using the following [Queries](https://github.com/MuzX9p088KKe/Predictive_Senescence/tree/main/Resources/Data/Formatting/SQL%20Files)</p>**
