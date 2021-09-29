@@ -39,12 +39,16 @@ This project includes a Google Slides which can be found here: [Predective Senes
 
 ## **<p align="center">Database</p>**
 
-After acquiring the aforementioned data file, the following ERD was used to create the postgreSQL database the project required. The SQL code to set up the database can be found [in the SQL files folder](https://github.com/MuzX9p088KKe/Predictive_Senescence/tree/main/Resources/Data/Formatting/SQL%20Files).
+### **<p align="center">Our Database is written in postgreSQL using the following [Queries](https://github.com/MuzX9p088KKe/Predictive_Senescence/tree/main/Resources/Data/Formatting/SQL%20Files)</p>**
+
 ![Database_ERD](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/Formatting/Schema_ERD.png?raw=true)
 
-The database hosted in AWS RDS and it is connected to our modeling code via psycopg2 for input of data. In order to access the data stored on their RDS instance, the user would have to rename [this text file](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RENAME_ME.txt) "config.py" located in the notebook folder and fill the database password as intructed in the document. It will also be necessary to change the psycopg2.connect arguments to match the user's RDS instance. The connection steps are shown in [this video](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/How%20to%20connect%20to%20AWS%20Server.mp4).
+If you wish to connect to the DB please do the following:
+1. Rename [this text file](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RENAME_ME.txt) "config.py"
+2. Fill the database password as intructed in the document. 
+3. Be sure to change the psycopg2.connect arguments to match your RDS instance. 
 
-The code in the [telomere rate of change notebook](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) includes two sections that are commented out as it is only needed for the first time the script is run.
+**For reference**, here is a video showing how to connect the DB: [DB Connection Video](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/How%20to%20connect%20to%20AWS%20Server.mp4).
 
 <br/><br/>
 ## **<p align="center">Machine Learning Models</p>**
