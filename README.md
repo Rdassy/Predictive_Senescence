@@ -11,7 +11,7 @@ This project was an attempt to determine the relationship of health and environm
 ## **<p align="center">Description of the data source</p>**
 
 ![Seychelles Warbler - Photo by Chong Boon Leong](https://user-images.githubusercontent.com/76575162/133174385-668707e5-8097-49fb-8998-21ec680a55eb.jpg)
-<em>Photo by Chong Boon Leong</em>
+<em>Seychelles Warbler - Photo by Chong Boon Leong</em>
 
 The data came from [this source](https://data.world/datagov-uk/e102ccd7-cd2a-4e73-8fe2-ec3f5f415ae5). The supplemental information file contains the following description and sources:
 
