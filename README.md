@@ -70,12 +70,7 @@ In order to effectively present findings, some key indicators were displayed in 
 
 Tableau allows the use of interactive elements that provide tools to further explore data without the need for new charts.
 
-e.g. Within our Grouped Classes by Age dashboard,  a cursor selection is possible to be more selective with the data. This allows users to "zoom in" into the scatter plot to further differentiate birds with high RTL and short average Age as shown below:
-
-![Dashboard Blueprint](/Resources/Images/Interactive_Element1.png)
-<br/><br/>
-
-![Dashboard Blueprint](/Resources/Images/Interactive_Element2.png)
+e.g. Within our Grouped Classes by Age dashboard, a cursor selection is possible to be more selective with the data. This allows users to "zoom in" into the scatter plot to further differentiate birds with high RTL and short average Age. Similar selections are possible in all our Tableau visualizations, and some even include filtering options to filter the data by individual characteristics like sex etc.
 
 <br/><br/>
 
