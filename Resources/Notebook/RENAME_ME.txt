@@ -1,0 +1,2 @@
+#Database Password needed for Notebooks
+db_pw = "INSERT YOUR DATABASE PASSWORD HERE"
