@@ -1,12 +1,11 @@
-# **<p align="center">Predictive Senescence</p>** <br/><br/>
+# **<p align="center">Predictive Senescence</p>** 
+---
+<br/><br/>
+## **<p align="center">Why choose Senescence?</p>**
 
-## **<p align="center">Why did we choose Senescence?</p>**
+In the early 1970's, Soviet theorist Alexei Olovnikov recognized that according to the scientific models of the time, chromosomes are not able to replicate their ends. The ends of the chromosomes are called telomeres, and they have been studied since this discovery to figure what the implications of this imperfect replication are. Through the years, it has been hypothesized that telomeres are associated with the process of aging, also called senescence. Studying senescence could lead to discoveries in advanced Age Therapy as well as potentially the reversal of the aging process.
 
-In the early 1970's, Soviet theorist Alexei Olovnikov recognized that according to the scientific models of the time, chromosomes are not able to replicate their ends. The ends of the chromosomes are called telomeres, and they have been studied since this discovery to figure what the implications of this imperfect replication are. Through the years, it has been hypothesized that telomeres are associated with the process of aging, also called senescence.
-
-We are interested in determining the relationship of health and environmental factors on telomere length or vice versa. To do so, we looked for a large dataset containing telomere measurments for individual of a species taken throughout their lifetime.
-
-After looking finding a suitable data set, we decided to use a study of the warbler bird population on the Cousin Island of Seychelles, off the coast of Africa.
+This project was an attempt to determine the relationship of health and environmental factors on telomere length and vice versa. To do so, a large dataset containing telomere measurments for individual of a species taken throughout their lifetime was needed. This project used a study of the warbler bird population on the Cousin Island of Seychelles, off the coast of Africa. For more context on this study, please see [this document](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/Bird_Data/BirdData_README.docx)
   <br/><br/>
 
 ## **<p align="center">Description of the data source</p>**
@@ -22,8 +21,7 @@ The data set contains the data collected from all the the aforementioned studies
 
 <br/><br/>
 
-## **<p align="center">Formulate hypotheses / questions to be answered with the data</p>**
----
+## **<p align="center">Hypotheses and questions to be answered with the data</p>**
 
 ### Hypothesis
 
@@ -34,59 +32,50 @@ There is a positive correlation between telomere length and survival
 - Does the telomere length decrease over time for each bird? If yes, is the rate similar?
 - Is there a correlation between telomere length and the age class of the birds?
 
+<br/><br/>
 ## **<p align="center">Presentation</p>**
 ---
-Our presentation is in Google Slides and can be found here: [Predective Senescence Presentation](https://docs.google.com/presentation/d/1L9v7cA1KCoQ5ybVa5znx3wh-Nd-GpyE_nK2fvRqJfrA/edit?usp=sharing)
+This project includes a Google Slides which can be found here: [Predective Senescence Presentation](https://docs.google.com/presentation/d/1L9v7cA1KCoQ5ybVa5znx3wh-Nd-GpyE_nK2fvRqJfrA/edit?usp=sharing)
 
 ## **<p align="center">Database</p>**
----
+
+After acquiring the aforementioned data file, the following ERD was used to create the postgreSQL database the project required. The SQL code to set up the database can be found [in the SQL files folder](https://github.com/MuzX9p088KKe/Predictive_Senescence/tree/main/Resources/Data/Formatting/SQL%20Files).
 ![Database_ERD](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/Formatting/Schema_ERD.png?raw=true)
 
-We have a postgreSQL database hosted in AWS. It is connected to our modeling code via psycopg2 for input of data.
+The database hosted in AWS RDS and it is connected to our modeling code via psycopg2 for input of data. In order to access the data stored on their RDS instance, the user would have to rename [this text file](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RENAME_ME.txt) "config.py" located in the notebook folder and fill the database password as intructed in the document. It will also be necessary to change the psycopg2.connect arguments to match the user's RDS instance. The connection steps are shown in [this video](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/How%20to%20connect%20to%20AWS%20Server.mp4).
 
-### **<p align="center">Machine Learning Models</p>**
----
+The code in the [telomere rate of change notebook](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) includes two sections that are commented out as it is only needed for the first time the script is run.
 
-[Our Hierarchical Cluster model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/HierarchicalClusteronly.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. THe model includes class labels chick, juvenile, and adult. Our database is stored on AWS and connected via psycopg2.
+<br/><br/>
+## **<p align="center">Machine Learning Models</p>**
+
+[Hierarchical Cluster model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/HierarchicalClusteronly.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. The model includes class labels chick, juvenile, and adult. 
 <br/><br/>
 
-[Our Categorical Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RandomForest.ipynb) uses telomere length to determine age class. It uses the Random Forest model. The model includes class labels chick, juvenile, and adult, which out perfromed the [Logistic Regression](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/newLogisticRegression.ipynb) model that used Age class with only Young and Adult classification. Our database is stored on AWS and connected via psycopg2.
+[Categorical Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RandomForest.ipynb) uses telomere length to determine age class. It uses the Random Forest model. The model includes class labels chick, juvenile, and adult, which out perfromed the [Logistic Regression](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/newLogisticRegression.ipynb) model that used Age class with only Young and Adult classification. 
 <br/><br/>
 
-[Our Continuous Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) initially used the rate at which Telomeres change in an individual to determine the amount of aging observed. It used a linear regression model with some feaure engineering to optimize our correlation. After noticing a megaphone data distribution, we applied the Box Cox algorithm to best demonstrate the linear correlation between telomere lengthe rate of change and bird age.
+[Continuous Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) initially used the rate at which Telomeres change in an individual to determine the amount of aging observed. It used a linear regression model with some feaure engineering to optimize our correlation. After noticing a megaphone data distribution, the Box Cox algorithm was applied to best demonstrate the linear correlation between telomere lengthe rate of change and bird age.
 <br/><br/>
 
-## **<p align="center">Dashboard</p>**
----
-### The right tool to visualize our predictive senescence data
-
-For this project we decided to build an interactive dashboard. The tool that we picked for this was Tableau given it's robust visualizations and it's native PostgresSQL integration capabilities.
-
-Tableau is a visual analytics platform that allows people and organizations to be more data-driven. For more about Tableau please go [here.](https://www.tableau.com/why-tableau/what-is-tableau)
-
-### Blueprint & Storyboard
-
-In order to effectively build our dashboard, we decided to compare a few key indicators as shown below:
-
-![Dashboard Blueprint](/Resources/Images/Dashboard_Blueprint.png)
+## **<p align="center">Tableau</p>**
 
 ### Dashboard
+
+In order to effectively present findings, some key indicators were displayed in the following Tableau dashboard:
 
 [Predictive Senescence - Tableau Story](https://public.tableau.com/views/Predictive_Senescence/PredictiveSenescence?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ### Interactive elements
 
-Tableau allows us to use interactive elements that provide analysts to further explore data without having to create new charts.
+Tableau allows the use of interactive elements that provide tools to further explore data without the need for new charts.
 
-e.g. Within our Grouped Classes by Age dashboard, we can do a cursor selection to drill-down into the data. This allows us to "zoom in" into the scatter plot to further differentiate birds with high RTL and short average Age as shown below:
+e.g. Within our Grouped Classes by Age dashboard,  a cursor selection is possible to be more selective with the data. This allows users to "zoom in" into the scatter plot to further differentiate birds with high RTL and short average Age as shown below:
 
 ![Dashboard Blueprint](/Resources/Images/Interactive_Element1.png)
 <br/><br/>
 
 ![Dashboard Blueprint](/Resources/Images/Interactive_Element2.png)
-<br/><br/>
-
-This is just one example of how Tableau allows users to interact with different elements in our data but there are many more. For more information please go [here.](https://help.tableau.com/current/pro/desktop/en-us/actions_dashboards.htm)
 
 <br/><br/>
 
