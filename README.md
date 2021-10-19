@@ -40,33 +40,33 @@ This project includes a Google Slides which can be found here: [Predective Senes
 
 ## **<p align="center">Environments</p>**
 
-You can follow [this tutorial](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) to duplicate this project's environment with anaconda along with the [environment.yml file](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/environment.yml).
-Alternatively, [this tutorial](https://note.nkmk.me/en/python-pip-install-requirements/) can be used to pip install packages along with the [requirements.txt file](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/requirements.txt).
+You can follow [this tutorial](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) to duplicate this project's environment with anaconda along with the [environment.yml file](https://github.com/Rdassy/Predictive_Senescence/blob/main/environment.yml).
+Alternatively, [this tutorial](https://note.nkmk.me/en/python-pip-install-requirements/) can be used to pip install packages along with the [requirements.txt file](https://github.com/Rdassy/Predictive_Senescence/blob/main/requirements.txt).
 
 <br/><br/>
 ## **<p align="center">Database</p>**
 
-### **<p align="center">Our Database is written in postgreSQL using the following [Queries](https://github.com/MuzX9p088KKe/Predictive_Senescence/tree/main/Resources/Data/Formatting/SQL%20Files)</p>**
+### **<p align="center">Our Database is written in postgreSQL using the following [Queries](https://github.com/Rdassy/Predictive_Senescence/tree/main/Resources/Data/Formatting/SQL%20Files)</p>**
 
-![Database_ERD](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/Formatting/Schema_ERD.png?raw=true)
+![Database_ERD](https://github.com/Rdassy/Predictive_Senescence/blob/main/Resources/Data/Formatting/Schema_ERD.png?raw=true)
 
 If you wish to connect to the DB please do the following:
-1. Rename [this text file](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RENAME_ME.txt) "config.py"
+1. Rename [this text file](https://github.com/Rdassye/Predictive_Senescence/blob/main/Resources/Notebook/RENAME_ME.txt) "config.py"
 2. Fill the database password as intructed in the document. 
 3. Be sure to change the psycopg2.connect arguments to match your RDS instance. 
 
-**For reference**, here is a video showing how to connect the DB: [DB Connection Video](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Data/How%20to%20connect%20to%20AWS%20Server.mp4).
+**For reference**, here is a video showing how to connect the DB: [DB Connection Video](https://github.com/Rdassy/Predictive_Senescence/blob/main/Resources/Data/How%20to%20connect%20to%20AWS%20Server.mp4).
 
 <br/><br/>
 ## **<p align="center">Machine Learning Models</p>**
 
-[Hierarchical Cluster model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/HierarchicalClusteronly.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. The model includes class labels chick, juvenile, and adult. 
+[Hierarchical Cluster model](https://github.com/Rdassy/Predictive_Senescence/blob/main/Resources/Notebook/HierarchicalClusteronly.ipynb) uses telomere length to determine age class. It uses the hierarchical cluster model with KMeans. The model includes class labels chick, juvenile, and adult. 
 <br/><br/>
 
-[Categorical Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/RandomForest.ipynb) uses telomere length to determine age class. It uses the Random Forest model. The model includes class labels chick, juvenile, and adult, which out perfromed the [Logistic Regression](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/newLogisticRegression.ipynb) model that used Age class with only Young and Adult classification. 
+[Categorical Machine Learning model](https://github.com/Rdassy/Predictive_Senescence/blob/main/Resources/Notebook/RandomForest.ipynb) uses telomere length to determine age class. It uses the Random Forest model. The model includes class labels chick, juvenile, and adult, which out perfromed the [Logistic Regression](https://github.com/Rdassy/Predictive_Senescence/blob/main/Resources/Notebook/newLogisticRegression.ipynb) model that used Age class with only Young and Adult classification. 
 <br/><br/>
 
-[Continuous Machine Learning model](https://github.com/MuzX9p088KKe/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) initially used the rate at which Telomeres change in an individual to determine the amount of aging observed. It used a linear regression model with some feaure engineering to optimize our correlation. After noticing a megaphone data distribution, the Box Cox algorithm was applied to best demonstrate the linear correlation between telomere lengthe rate of change and bird age.
+[Continuous Machine Learning model](https://github.com/Rdassy/Predictive_Senescence/blob/main/Resources/Notebook/teloRateOfChange.ipynb) initially used the rate at which Telomeres change in an individual to determine the amount of aging observed. It used a linear regression model with some feaure engineering to optimize our correlation. After noticing a megaphone data distribution, the Box Cox algorithm was applied to best demonstrate the linear correlation between telomere lengthe rate of change and bird age.
 <br/><br/>
 
 ## **<p align="center">Tableau</p>**
@@ -101,10 +101,10 @@ For the sake of meeting deadlines, this project was fairly limited in scope. The
 
 <table align= "center">
   <tr>
-    <td align="center"><a href="https://github.com/Jamesrx33"><img src="https://avatars.githubusercontent.com/u/68870179?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Bell</b></sub></a><br /><a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/commits?author=Jamesrx33" title="Code">💻</a> <a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/pulls?q=is%3Apr+reviewed-by%3AJamesrx33" title="Reviewed Pull Requests">👀<a href="#ideas-Jamesrx33" title="Ideas, Planning, & Feedback">🤔</a><span title="Data">🔣</span><span title="Research">🔬</span></td>
-    <td align="center"><a href="https://github.com/kermitbravo"><img src="https://avatars.githubusercontent.com/u/24511616?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kermit Bravo</b></sub></a><br /><a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/commits?author=kermitbravo" title="Code">💻</a><a href="#design-kermitbravo" title="Design">🎨</a><a href="#ideas-kermitbravo" title="Ideas, Planning, & Feedback">🤔</a><span title="Research">🔬</span></td>
-    <td align="center"><a href="https://github.com/MuzX9p088KKe"><img src="https://avatars.githubusercontent.com/u/76575162?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robin Dassy</b></sub></a><br /><a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/commits?author=MuzX9p088KKe" title="Code">💻</a> <a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/pulls?q=is%3Apr+reviewed-by%3AMuzX9p088KKe" title="Reviewed Pull Requests">👀</a> <a href="#ideas-MuzX9p088KKe" title="Ideas, Planning, & Feedback">🤔</a><span title="Research">🔬</span></td>
-    <td align="center"><a href="https://github.com/Khodge15"><img src="https://avatars.githubusercontent.com/u/82460401?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kari Hodge</b></sub></a><br /><a href="https://github.com/MuzX9p088KKe/Predictive_Senescence/commits?author=Khodge15" title="Code">💻</a><a href="#ideas-Khodge15" title="Ideas, Planning, & Feedback">🤔</a><span title="Data">🔣</span><span title="Research">🔬</span></td>
+    <td align="center"><a href="https://github.com/Jamesrx33"><img src="https://avatars.githubusercontent.com/u/68870179?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Bell</b></sub></a><br /><a href="https://github.com/Rdassy/Predictive_Senescence/commits?author=Jamesrx33" title="Code">💻</a> <a href="https://github.com/Rdassy/Predictive_Senescence/pulls?q=is%3Apr+reviewed-by%3AJamesrx33" title="Reviewed Pull Requests">👀<a href="#ideas-Jamesrx33" title="Ideas, Planning, & Feedback">🤔</a><span title="Data">🔣</span><span title="Research">🔬</span></td>
+    <td align="center"><a href="https://github.com/kermitbravo"><img src="https://avatars.githubusercontent.com/u/24511616?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kermit Bravo</b></sub></a><br /><a href="https://github.com/Rdassy/Predictive_Senescence/commits?author=kermitbravo" title="Code">💻</a><a href="#design-kermitbravo" title="Design">🎨</a><a href="#ideas-kermitbravo" title="Ideas, Planning, & Feedback">🤔</a><span title="Research">🔬</span></td>
+    <td align="center"><a href="https://github.com/Rdassy"><img src="https://avatars.githubusercontent.com/u/76575162?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robin Dassy</b></sub></a><br /><a href="https://github.com/Rdassy/Predictive_Senescence/commits?author=Rdassy" title="Code">💻</a> <a href="https://github.com/Rdassy/Predictive_Senescence/pulls?q=is%3Apr+reviewed-by%3ARdassy" title="Reviewed Pull Requests">👀</a> <a href="#ideas-Rdassy" title="Ideas, Planning, & Feedback">🤔</a><span title="Research">🔬</span></td>
+    <td align="center"><a href="https://github.com/Khodge15"><img src="https://avatars.githubusercontent.com/u/82460401?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kari Hodge</b></sub></a><br /><a href="https://github.com/Rdassy/Predictive_Senescence/commits?author=Khodge15" title="Code">💻</a><a href="#ideas-Khodge15" title="Ideas, Planning, & Feedback">🤔</a><span title="Data">🔣</span><span title="Research">🔬</span></td>
   
   </tr>
  </table>
